@@ -35,8 +35,6 @@ class Book:
 
     def get_availability(self):
         return self.__availability
-
-# Initialize books
 book1 = Book(101, "Python Programming", "John Doe")
 book2 = Book(102, "Data Science Essentials", "Jane Smith")
 book3 = Book(103, "Machine Learning", "Alan Turing")
